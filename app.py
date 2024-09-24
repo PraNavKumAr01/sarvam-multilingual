@@ -2,10 +2,6 @@ import requests
 import streamlit as st
 import json
 import base64
-import os
-from dotenv import load_dotenv
-
-load_dotenv()
 
 def get_lang_code(lang_string):
     if lang_string == "Hindi":
